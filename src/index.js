@@ -14,4 +14,5 @@ const server = new GraphQLServer({
     resolvers
 })
 
-server.start().then(() => console.log('Server running on http://localhost:4000...'))
+server.start().then(() => 
+console.log('Server running on http://localhost:4000 ;) '))
